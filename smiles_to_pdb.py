@@ -8,8 +8,8 @@ is flexible anyway.
 from rdkit import Chem
 from rdkit.Chem import AllChem
 
-output = 'ZP-01-158'
-smiles = 'O=C(N1CCN(C2=CC=C(Cl)C=C2)CC1)C(CC3)CCN3C4=NC(N5CCOCC5)=NS4' 
+output = 'carbon_monoxide'
+smiles = 'CO' 
 forcefield = 'mmff94'
 
 def optimize(smiles, forcefield='mmff94'):
